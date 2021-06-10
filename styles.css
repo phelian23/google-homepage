@@ -1,0 +1,7 @@
+a {color: rgba(0,0,0,0.87);
+text-decoration: none;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
