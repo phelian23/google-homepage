@@ -1,9 +1,14 @@
 a {color: rgba(0,0,0,0.87);
 text-decoration: none;}
+input {background-color: #f8f9fa;
+  border: 1px solid #f6f8fc;
+  font-size: 14px;}
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
 }
 li {
     display: inline;
@@ -16,7 +21,58 @@ li {
   .child {
     width: 50px;
     height: 50px;
-    /* Center vertically */
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin: -25px 0 0 -100px; /* apply negative top and left margins to truly center the element */
+  }
+  .son {
+    width: 50px;
+    height: 50px;
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin: -25px 0 0 -200px; /* apply negative top and left margins to truly center the element */
+  }
+  .pool {
+    width: 50px;
+    height: 50px;
     position: absolute;
     top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -100px;
   }
+  .cool {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 40px;
+  }
+  .chdf {
+    width: 1350px;
+    height: 50px;    
+    position: absolute;
+    top: 50%;
+    margin-top: 220px;
+  }
+  .posi {
+    width: 1350px;
+    height: 50px;    
+    position: absolute;
+    top: 50%;
+    margin-top: 170px;
+    background-color: rgb(233, 230, 227);
+  }
+  .yool {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin: -25px 0 0 -100px;
+  }
+  
